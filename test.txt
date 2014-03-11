@@ -3,4 +3,4 @@ test
 
 blah
 
-GOodbye WOrld
+Goodbye World
