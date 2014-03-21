@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>UnnamedProject</title>
+		
+		<style>
+		</style>
+
+		</head>
+	
+	<body>
+		<div id = "LeftDiv" Style="Background-color:#14EB30; float:left; height:750px; width:700px">
+		<p>words</p>
+		</div>
+		
+		<div id = "Rightdiv" Style="Background-color:#565756; float:right; height:750px; width:500px">
+			
+			<div id="Button1" Style="background-color:#14EB30; float:left; float:top; height:150px; width:150px">
+				<img id="button1" src='http://placehold.it/150x150'></img>
+			</div>
+			
+			<div id="Button2" Style="background-color:#14EB30; float:left; float:top; height:150px; width:150px">
+				<img id="button2" src='http://placehold.it/150x150'></img>
+			</div>
+		
+			<div id="Button3" Style="background-color:#14EB30; float:right; float:top; height:150px; width:150px">
+				<img id="button3" src='http://placehold.it/150x150'></img>
+			</div>
+		
+			<div id="Button4" Style="background-color:#14EB30; float:left; float:centre; height:150px; width:150px">
+				<img id="button4" src='http://placehold.it/150x150'></img>
+			</div>
+		
+			<div id="Button5" Style="background-color:#14EB30; float:left; float:centre; height:150px; width:150px">
+				<img id="button5" src='http://placehold.it/150x150'></img>
+			</div>
+				
+			<div id="Button6" Style="background-color:#14EB30; float:right; float:centre; height:150px; width:150px">
+				<img id="button6" src='http://placehold.it/150x150'></img>
+			</div>
+			
+			<div id="Button7" Style="background-color:#14EB30; float:left; float:bottom; height:150px; width:150px">
+				<img id="button7" src='http://placehold.it/150x150'></img>
+			</div>
+			
+			<div id="Button8" Style="background-color:#14EB30; float:left; float:bottom; height:150px; width:150px">
+				<img id="button8" src='http://placehold.it/150x150'></img>
+			</div>
+			
+			<div id="Button9" Style="background-color:#14EB30; float:right; float:bottom; height:150px; width:150px">
+				<img id="button9" src='http://placehold.it/150x150'></img>
+			</div>
+			
+			<div id="Button10" Style="background-color:#14EB30; float:left; float:bottom; height:150px; width:150px">
+				<img id="button10" src='http://placehold.it/150x150'></img>
+			</div>
+			
+			<div id="Button11" Style="background-color:#14EB30; float:left; float:bottom; height:150px; width:150px">
+				<img id=" button11" src='http://placehold.it/150x150'></img>
+			</div>
+			
+			<div id="Button12" Style="background-color:#14EB30; float:right; float:bottom; height:150px; width:150px">
+				<img id="button12" src='http://placehold.it/150x150'></img>
+			</div>
+			
+			<div id="Button13" Style="background-color:#14EB30; float:left; float:bottom; height:150px; width:150px">
+				<img id="button13" src='http://placehold.it/150x150'></img>
+			</div>
+			
+			<div id="Button14" Style="background-color:#14EB30; float:left; float:bottom; height:150px; width:150px">
+				<img id="button14" src='http://placehold.it/150x150'></img>
+			</div>
+			
+			<div id="Button15" Style="background-color:#14EB30; float:right; float:bottom; height:150px; width:150px">
+				<img id="button15" src='http://placehold.it/150x150'></img>
+			</div>
+			
+		</div>
+		</body>
+		</html>
