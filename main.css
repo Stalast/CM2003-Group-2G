@@ -1,5 +1,38 @@
-    header {
-        font-family: sans-serif;
-        padding: 7px;
-        margin: 27px;
-    }
+html{
+    padding: 20px;
+}
+
+body {
+    font-family: sans-serif;
+    max-width: 852px;
+    margin: 0 auto;
+    
+}
+
+header {
+    padding-bottom: 50px;   
+}
+
+
+.columnleft {
+    float:left;
+    width: 33%;
+    text-align: left
+}
+
+.columncentre {
+    float:left;
+    width: 33%;
+}
+
+.columnright {
+    float:right;
+    width: 33%;
+    text-align: right;
+}
+
+.video {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
