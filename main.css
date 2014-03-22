@@ -1,38 +1,53 @@
-html{
+html {
     padding: 20px;
 }
-
 body {
-    font-family: sans-serif;
-    max-width: 852px;
-    margin: 0 auto;
-    
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
 }
-
 header {
-    padding-bottom: 50px;   
+    padding-bottom: 50px;
 }
-
-
+.columnleft, .columncentre, .columnright {
+    font-size: 20pt;   
+    padding-bottom: 5px;
+}
 .columnleft {
-    float:left;
+    float: left;
     width: 33%;
     text-align: left
 }
-
 .columncentre {
-    float:left;
+    float: left;
     width: 33%;
 }
-
 .columnright {
-    float:right;
+    float: right;
     width: 33%;
     text-align: right;
 }
-
 .video {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
+#back {
+    top: 50%;
+    margin-top: -300px;
+    background-color: rgb(240, 240, 240);
+    color: rgb(180, 180, 180);
+    height: 600px;
+    width: 100px;
+    text-align: center;
+    line-height: 600px;
+    position: fixed;
+    font-weight: bolder;
+}
+#back:hover {
+    background-color: rgb(220, 220, 220);
+    color: rgb(255, 255, 255);
+}
+#contentwrapper {
+    width: 852px;
+    margin: 0 auto;
+    text-align: center;
+}
