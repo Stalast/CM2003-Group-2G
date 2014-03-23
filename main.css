@@ -4,18 +4,21 @@ html {
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     width: 100%;
+    background-image: url(images/sos.png);
 }
 header {
-    padding-bottom: 50px;
+    padding: 15px;
 }
-.columnleft, .columncentre, .columnright {
-    font-size: 20pt;   
+.columnleft,
+.columncentre,
+.columnright {
+    font-size: 20pt;
     padding-bottom: 5px;
 }
 .columnleft {
     float: left;
     width: 33%;
-    text-align: left
+    text-align: left;
 }
 .columncentre {
     float: left;
@@ -27,10 +30,13 @@ header {
     text-align: right;
 }
 .video {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: rgb(90, 90, 90);
 }
 #back {
+    border-style: solid;
+    border-color: #cccccc;
     top: 50%;
     margin-top: -300px;
     background-color: rgb(240, 240, 240);
@@ -41,6 +47,9 @@ header {
     line-height: 600px;
     position: fixed;
     font-weight: bolder;
+    -webkit-transition: .3s;
+    transition: .3s;
+    box-shadow: 0px 0px 40px 10px #eee;
 }
 #back:hover {
     background-color: rgb(220, 220, 220);
