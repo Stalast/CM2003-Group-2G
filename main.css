@@ -60,8 +60,95 @@ header {
     margin: 0 auto;
     text-align: center;
 }
-#f1{
+#f1 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 10pt; 
-	text-align: center;
+    font-size: 10pt;
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+}
+#f2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10pt;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 20px;
+}
+.button {
+    float: left;
+    height: 130px;
+    width: 120px;
+}
+.button img {
+    margin-left: 15px;
+    width: 90px;
+    height: 90px;
+}
+.button .button-text {
+    text-align: center;
+    font-size: 11px;
+    width: 90px;
+    margin: 0 auto;
+}
+#ButtonArray,
+#NextPage,
+#Map{
+    float: left;
+}
+#ButtonArray {
+    width: 360px;
+    margin-left: 25px;
+    border-left: 2px solid #ccc;
+    padding-left: 50px;
+    padding-top: 35px;
+}
+#MainContent{
+    width:1490px; 
+    margin: 0 auto;
+    /* http://css-tricks.com/snippets/css/exactly-center-an-imagediv-horizontally-and-vertically/ */
+    height: 736px;
+    margin-left: -792px;
+    margin-top: -388px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+#NextPage{
+    border-style: solid;
+    border-color: #cccccc;
+    top: 50%;
+    right: 20px;
+    margin-top: -300px;
+    background-color: rgb(240, 240, 240);
+    color: rgb(80,80,80);
+    height: 600px;
+    width: 100px;
+    text-align: center;
+    line-height: 550px;
+    position: fixed;
+    font-weight: bolder;
+    -webkit-transition: .3s;
+    transition: .3s;
+    box-shadow: 0px 0px 40px 10px #eee;
+}
+#NextPage:hover {
+    background-color: rgb(220, 220, 220);
+    color: rgb(255, 255, 255);
+}
+#Map{
+    padding-top: 20px;
+    width: 1000px;
+    padding-right: 30px;
+}
+#ButtonArray .steps {
+    padding-left: 15px;   
+}
+.steps{
+    color: rgb(80,80,80);
+    font-size: 16px;
+    height: 30px;
+    display: block;
+    width: 100%;
 }
